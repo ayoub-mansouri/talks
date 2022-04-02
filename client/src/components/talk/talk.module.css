@@ -1,0 +1,43 @@
+.talk {
+  background-color: white;
+  padding:   2rem;
+  box-shadow: 0px 8px 65px -21px rgba(135, 125, 135, 0.83);
+  border-radius: 0.5rem;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.peek h2 {
+  color: black;
+  text-transform: capitalize;
+}
+
+.peek h3 {
+  color: rgba(128, 128, 128, 0.63);
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.peek h3 span {
+  color: black;
+}
+
+.peek a {
+    text-transform: capitalize;
+    display: block;
+    margin-top: 1rem;
+}
+
+.talk:hover {
+  transform: scale(1.05);
+}
+
+.talk button{
+    border: 0;
+    background-color: transparent;
+    color: rgba(255, 0, 0, 0.589);
+    font-size: 1.5rem;
+    cursor: pointer;
+}

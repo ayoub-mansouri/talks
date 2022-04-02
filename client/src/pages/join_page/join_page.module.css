@@ -1,0 +1,60 @@
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container h1{
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: white;
+  padding: 3rem 2rem;
+  box-shadow: 0px 8px 65px -21px rgba(135, 125, 135, 0.83);
+  border-radius: 0.5rem;
+}
+
+.form button{
+    text-transform: capitalize;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    border: 0;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.username input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 0;
+}
+
+.username :focus {
+  outline: none;
+}
+
+.username svg {
+  font-size: 1.3rem;
+  color: #333;
+}
+

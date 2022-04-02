@@ -1,0 +1,91 @@
+.overlay {
+  z-index: 11111;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  transform: scale(0);
+  /* transform: translateY(-1); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.377);
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem;
+  transition: 0.2s;
+}
+
+
+.modal {
+  background-color: white;
+  position: relative;
+  padding: 3rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+
+.modal h2 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: red;
+  border: 0;
+  background-color: transparent;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.show {
+    z-index: 11111;
+  /* visibility: initial; */
+  /* opacity: 1; */
+  transform: scale(1);
+  /* transform: translateY(0); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.849);
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem;
+  transition: 0.2s;
+}
+
+@media (max-width: 600px){
+    
+    .show{
+        padding: 5rem 1rem;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.form textarea {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form button {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  border: 0;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}

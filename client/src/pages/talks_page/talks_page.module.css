@@ -1,0 +1,60 @@
+.talks_container{
+  max-width: 1000px;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.talks_container > h1{
+  color: rgba(128, 128, 128, 0.466);
+  align-self: center;
+  text-transform: capitalize;
+  margin-top: 5rem;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+}
+
+.title h1{
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+
+._title button{
+  background-color: black;
+  color: white;
+  border:0;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.title button {
+  padding: 0.3rem 1rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  margin-left: 1rem;
+  transition:.2s;
+  background-color: rgb(223, 252, 252);
+}
+
+.title button:hover{
+    background-color: black;
+    color: white;
+}
+
+.talks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
